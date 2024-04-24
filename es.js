@@ -87,9 +87,10 @@ city_info('')*/
 const express = require("express"); 
 const morgan = require("morgan"); 
 const needle = require("needle"); 
+const cors = require('cors');
 const { createProxyMiddleware } = require("http-proxy-middleware"); 
-
 const app = express(); 
+app.use(cors())
 
 const PORT = process.env.PORT || 3000; 
 const HOST = "localhost";

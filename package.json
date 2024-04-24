@@ -2,11 +2,11 @@
   "name": "js-exercise",
   "version": "1.0.0",
   "description": "test",
-  "main": "es.js",
+  "main": "proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node es.js",
-    "dev": "nodemon es.js"
+    "start": "node proxy.js",
+    "dev": "nodemon proxy.js"
   },
   "author": "",
   "license": "ISC",
